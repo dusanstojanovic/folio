@@ -834,6 +834,24 @@ header p {
 	-webkit-transform: scale(1.02) translateY(-10px);
 	transform: scale(1.02) translateY(-10px);
 }
+.c-grid a.is-video {
+	position: relative;
+}
+.c-grid a.is-video::after {
+	content: "video";
+	position: absolute;
+	inset: 0;
+	display: grid;
+	place-items: center;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.3);
+	transition: all 0.2s ease-in-out;
+	font-size: 240%;
+	opacity: 0;
+}
+.c-grid a.is-video:hover::after {
+	opacity: 1;
+}
 footer ul {
 	-webkit-box-pack: center;
 	border-top: 1px solid var(--c-grey-300);

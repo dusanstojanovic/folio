@@ -576,7 +576,7 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	-o-font-smoothing: antialiased;
-	background: var(--c-grey-200);
+	background: var(--c-grey-100);
 	color: var(--c-grey-900);
 	font-family: var(--ff--primary);
 	font-size: var(--base-font-size);
